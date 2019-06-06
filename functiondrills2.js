@@ -18,6 +18,7 @@ console.log(beyond(-1));
 console.log(beyond(0));
 
 
+// Second Drill for the Decode Function
 function decode(word){
   let firstChar = word.slice(0,1);
   switch(firstChar){
@@ -47,10 +48,11 @@ for(let i = 0; i < strArray.length; i++){
   console.log(decode(strArray[i]));
 }
 
-//Cycle = 'l'
-//12345
-//apple = 'p'
-//12345
-//mouse = ' '
-//craft block argon meter bells brown croon droop
-//   f    o    r    ' '     l     o      o      p
+// Cycle = 'l'
+// 12345
+// apple = 'p'
+// 12345
+// mouse = ' '
+// craft block argon meter bells brown croon droop
+//    f    o    r    ' '     l     o      o      p
+
